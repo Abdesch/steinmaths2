@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+}
+
+/* Style de l'icône de recherche */
+.search-icon {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #444;
+}
+
+nav li {
+    position: relative;
+}
+
+/* Style des liens du menu */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    font-size: 16px;
+}
+
+/* Style des icônes sociales */
+.social-icons {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Pousse les icônes sociales vers la droite */
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
